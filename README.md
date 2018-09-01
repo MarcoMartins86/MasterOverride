@@ -1,4 +1,4 @@
-# MasterOverride v0.2
+# MasterOverride v0.3
 NeoScavenger MasterOverride mod tested with Steam game version 1.15 1/6/2017 and made by me (Marco Martins).
 This is still in really early state of creation.
 Mod should be placed into:
