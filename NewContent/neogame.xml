@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pma_xml_export version="1.0">
+    <!--
+    - Database: 'neogame'
+    -->
+    <database name="neogame">
+        <!-- Table attackmodes -->
+        <!-- Table barterhexes -->
+        <!-- Table battlemoves -->
+        <!-- Table camptypes -->
+        <!-- Table chargeprofiles -->
+		<!-- Table conditions -->
+        <!-- Table containertypes -->
+        <!-- Table creatures -->
+        <!-- Table creaturesources -->
+        <!-- Table datafiles -->
+        <!-- Table encounters -->
+        <!-- Table encountertriggers -->
+        <!-- Table factions -->
+        <!-- Table forbiddenhexes -->
+        <!-- Table headlines -->
+        <!-- Table hextypes -->
+        <!-- Table ingredients -->
+		<table name="ingredients">
+            <column name="nID">1</column>
+            <column name="strName">unlicensed power tap</column>
+            <column name="strRequiredProps">1</column>
+            <column name="strForbidProps"></column>
+        </table>
+		<!-- Table itemprops -->
+		<table name="itemprops">
+            <column name="nID">1</column>
+            <column name="strPropertyName">electric power source</column>
+        </table>
+        <!-- Table itemtypes -->
+		<table name="itemtypes">
+            <column name="id">1</column>
+            <column name="nGroupID">1</column>
+            <column name="nSubgroupID">1</column>
+            <column name="strName">battery</column>
+            <column name="strDesc">laptop battery</column>
+            <column name="strDescAlt">laptop battery fully charged</column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">0:ItmBattLaptop.png</column>
+            <column name="vSpriteList"></column>
+            <column name="vImageUsage">0,0,0,0,0,0</column>
+            <column name="fWeight">0.68</column>
+            <column name="fMonetaryValue">50</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:3,0:3</column>
+            <column name="aEquipConditions"></column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">3x4</column>
+            <column name="vEquipSlots">21,20</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:9,0:108,0:28,0:48,0:50,0:75,0:97,0:104,NSE:64,NSE:84</column>
+            <column name="aContentIDs">0:10</column>
+            <column name="nFormatID">0:25</column>
+            <column name="nTreasureID"></column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">0:cueLargeBatteryCellPickup,0:cueLargeBatteryCellPutdown</column>
+        </table>
+		<table name="itemtypes">
+			<column name="id">2</column>
+			<column name="nGroupID">2</column>
+			<column name="nSubgroupID">1</column>
+			<column name="strName">bag</column>
+			<column name="strDesc">green &quot;LM: RIOT&quot; duffel bag</column>
+			<column name="strDescAlt"></column>
+			<column name="nCondID">0:1</column>
+			<column name="vImageList">0:ItmDuffle.png,0:ItmDuffleWorn.png</column>
+			<column name="vSpriteList">13=0:CreItmBagDuffelBack.png,14=0:CreItmBagDuffelBack.png,20=0:CreItmBagDuffelL.png,21=0:CreItmBagDuffelR.png</column>
+			<column name="vImageUsage">0,0,0,0,1,1</column>
+			<column name="fWeight">0.59</column>
+			<column name="fMonetaryValue">50</column>
+			<column name="fMonetaryValueAlt">0</column>
+			<column name="fDurability">1</column>
+			<column name="fDegradePerHour">0</column>
+			<column name="fEquipDegradePerHour">0.0007</column>
+			<column name="fDegradePerUse">0</column>
+			<column name="vDegradeTreasureIDs">0:11,0:3</column>
+			<column name="aEquipConditions"></column>
+			<column name="aPossessConditions"></column>
+			<column name="aUseConditions"></column>
+			<column name="aCapacities">10x6</column>
+			<column name="vEquipSlots">13=1=1,14=1=1,20=0=0,21=0=0</column>
+			<column name="vUseSlots"></column>
+			<column name="bSocketLocked">0</column>
+			<column name="vProperties">Over:20009,0:8,0:16,0:37,0:46,0:47,0:48,0:50,0:75,0:87</column>
+			<column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:18,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,NSE:2,NSE:3,NSE:4,NSE:5,NSE:6,NSE:7,NSE:8,NSE:9,NSE:10,NSE:11,NSE:12,NSE:14,NSE:16,NSE:17,MoD:3,MoD:4,MoD:5,MoD:6</column>
+			<column name="nFormatID">0:39</column>
+			<column name="nTreasureID">0:592</column>
+			<column name="nComponentID">0:3</column>
+			<column name="bMirrored">0</column>
+			<column name="nSlotDepth">0</column>
+			<column name="strChargeProfiles"></column>
+			<column name="aAttackModes"></column>
+			<column name="nStackLimit">1</column>
+			<column name="aSwitchIDs">Shrink Back=0:5.1</column>
+			<column name="aSounds">0:cueBackPackPickup,0:cueBackPackPutdown</column>
+		</table>
+        <!-- Table maps -->
+        <!-- Table recipes -->
+		<table name="recipes">
+            <column name="nID">1</column>
+            <column name="strName">battery</column>
+            <column name="strSecretName">laptop battery fully charged</column>
+            <column name="strTools">1x1</column>
+            <column name="strConsumed">1x0:111</column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">2</column>
+            <column name="fHours">0</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">0</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">1</column>
+            <column name="vAlsoTry"></column>
+            <column name="nTempTreasureID">0:3</column>
+			<column name="bDegradeOutput">0</column>
+			<column name="strType">recharge</column>
+			<column name="bScrap">0</column>
+        </table>
+		<table name="recipes">
+            <column name="nID">2</column>
+            <column name="strName">sewing needles</column>
+            <column name="strSecretName"></column>
+            <column name="strTools">1xOver:19001+1xNSE:83</column>
+            <column name="strConsumed">6x0:21</column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">NSE:174</column>
+            <column name="fHours">0.5</column>
+            <column name="nReverse">1</column>
+            <column name="nHiddenID">0</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry"></column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">1</column>
+            <column name="strType">tool</column>
+			<column name="bScrap">0</column>
+        </table>
+		<table name="recipes">
+            <column name="nID">3</column>
+            <column name="strName">reinforced &quot;Hiya Poopy&quot; bag</column>
+            <column name="strSecretName"></column>
+            <column name="strTools">1xOver:19001<!--Knitwit-->+1xNSE:73</column>
+            <column name="strConsumed">1xOver:19003+12x0:30+18x0:13</column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">Over:24001</column>
+            <column name="fHours">2</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">0</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry">6</column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">0</column>
+            <column name="strType">repair</column>
+            <column name="bScrap">0</column>
+        </table>
+		<table name="recipes">
+            <column name="nID">4</column>
+            <column name="strName">reinforced &quot;LM: RIOT&quot; duffel bag</column>
+            <column name="strSecretName"></column>
+            <column name="strTools">1xOver:19001+1xNSE:77</column>
+            <column name="strConsumed">1xOver:19005+18x0:30+24x0:13+3xNSE:36</column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">Over:24003</column>
+            <column name="fHours">2</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">0</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry"></column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">0</column>
+            <column name="strType">repair</column>
+            <column name="bScrap">0</column>
+        </table>
+		<table name="recipes">
+            <column name="nID">5</column>
+            <column name="strName">reinforced Pearson &quot;Yukon&quot; bag</column>
+            <column name="strSecretName"></column>
+            <column name="strTools">1xOver:19001<!--Knitwit-->+1xNSE:77</column>
+            <column name="strConsumed">1xOver:19006+10xNSE:36+6xNSE:28+27x0:13+2xNSE:37</column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">Over:24005</column>
+            <column name="fHours">2</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">0</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry"></column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">0</column>
+            <column name="strType">repair</column>
+            <column name="bScrap">0</column>
+        </table>
+		<table name="recipes">
+            <column name="nID">6</column>
+            <column name="strName">reinforced &quot;Hiya Poopy&quot; bag</column>
+            <column name="strSecretName">cannibalized poopy bag</column>
+            <column name="strTools">1xOver:19001<!--Knitwit-->+1xNSE:73+1x0:14</column>
+            <column name="strConsumed">1xOver:19007+1xOver:19003</column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">Over:24001</column>
+            <column name="fHours">2</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">3</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry">8</column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">0</column>
+            <column name="strType">repair</column>
+            <column name="bScrap">0</column>
+        </table>
+		<table name="recipes">
+            <column name="nID">7</column>
+            <column name="strName">&quot;Hiya Poopy&quot; bag</column>
+            <column name="strSecretName">cannibalized poopy bag</column>
+            <column name="strTools">1xNSE:74+1xNSE:73+1x0:14</column>
+            <column name="strConsumed">2xOver:19007<!--Poopy Bag--></column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">Over:24001</column>
+            <column name="fHours">2</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">Over:23003</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry"></column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">0</column>
+            <column name="strType">reinforce</column>
+            <column name="bScrap">1</column>
+        </table>
+		<table name="recipes">
+            <column name="nID">8</column>
+            <column name="strName">reinforced &quot;Hiya Poopy&quot; bag</column>
+            <column name="strSecretName">cannibalized poopy bag</column>
+            <column name="strTools">1xNSE:74+1xNSE:73+1x0:14</column>
+            <column name="strConsumed">1xOver:19007+1xOver:19003</column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">Over:24001</column>
+            <column name="fHours">2</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">3</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry"></column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">0</column>
+            <column name="strType">repair</column>
+            <column name="bScrap">1</column>
+        </table>
+        <!-- Table treasuretable -->
+		<table name="treasuretable">
+            <column name="id">1</column>
+            <column name="strName">laptop battery full contents</column>
+            <column name="aTreasures">0:10.3x1x240</column>
+            <column name="bNested">0</column>
+            <column name="bSuppress">0</column>
+            <column name="bIdentify">0</column>
+        </table>
+		<table name="treasuretable">
+            <column name="id">2</column>
+            <column name="strName">laptop battery fully charged</column>
+            <column name="aTreasures">1.1x1x1</column>
+            <column name="bNested">0</column>
+            <column name="bSuppress">0</column>
+            <column name="bIdentify">0</column>
+        </table>
+    </database>
+</pma_xml_export>
