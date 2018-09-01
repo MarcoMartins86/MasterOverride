@@ -20,7 +20,7 @@ Also to use this mod you need to install all of the following mods:
 		* Getmods/
 		* VanillaOverride/
 
-- [Extended NeoScav v5.4](https://bluebottlegames.com/node/4235) and extract to:
+- [Extended NeoScav v5.4b](https://bluebottlegames.com/node/4235) and extract to:
 	+ [NeoSavengerGameFolder]/Mods/NeoScavExtended/
 		* NSEoverride/
 		* NSExtended/

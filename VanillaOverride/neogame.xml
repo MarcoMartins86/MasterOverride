@@ -5108,26 +5108,6 @@ And alon	g with it, your hopes of finding a warm meal and some answers. You deci
 				<column name="strType">weapon</column>
 				<column name="bScrap">1</column>
 			</table>
-			<!-- NSEoverride, MoDZero -->
-			<table name="recipes">
-				<column name="nID">55</column>
-				<column name="strName">broad spear</column>
-				<column name="strSecretName"></column>
-				<column name="strTools">1x14+1x76</column>
-				<column name="strConsumed">1x65+1x66+1xNSE:134</column>
-				<column name="strDestroyed"></column>
-				<column name="nTreasureID">391</column>
-				<column name="fHours">1</column>
-				<column name="nReverse">1</column>
-				<column name="nHiddenID">0</column>
-				<column name="bIdentify">0</column>
-				<column name="bTransferComponents">0</column>
-				<column name="vAlsoTry"></column>
-				<column name="nTempTreasureID">3</column>
-				<column name="bDegradeOutput">1</column>
-				<column name="strType">weapon</column>
-				<column name="bScrap">1</column>
-			</table>
 			<!-- NSEoverride, Overhaul -->
 			<table name="recipes">
 				<column name="nID">56</column>
@@ -5963,7 +5943,7 @@ And alon	g with it, your hopes of finding a warm meal and some answers. You deci
 			<table name="treasuretable">
 				<column name="id">558</column>
 				<column name="strName">ATN Trading Post Inventory</column>
-				<column name="aTreasures">26.11x1x1<!--Locker-->NSE:41.2x1x1,NSE:10.10x1x3,NSE:154x1x1,MoD:97.1x1x2,2.0x0.5x1,3.3x0.5x1,4.1x0.5x1-5,4.3x0.3x1-3,4.4x0.75x2-5,5.0x1x1-2,10.6x1x5-12,13.3x1x2-4,18.1x0.75x1-4,18.4x1x1,21.1x1x1,24.0x0.5x2-4,NSE:50.3x0.5x1-2,NSE:50.5x0.5x1-2,28.3x1x1,29.0x0.75x1,31.1x1x1,49.0x1x1,78.6x0.75x1,78.8x0.5x1,98.1x1x4-8,98.7x1x2-4,101.5x1x3-7,101.12x1x5-10,101.11x0.75x2-4,101.20x0.75x2-4,415x1x1-3,412x0.5x1,395x0.3x1,426x0.25x3-9,NSE:13.2x1x2-5,NSE:37x1x2-4,NSE:238x1x1,NSE:87.2x1x1-5,NSE:46x1x1-5,NSE:101.25x0.25x1-2|NSE:101.27x0.25x1-3,MoD:14.1x0.25x1,MoD:86.9x0.25x1-3,MoD:98.1x0.5x1-2,MoD:98.3x0.5x1-2,MoD:98.7x0.6x1-2,MoD:101.11x0.3x1-3,MoD:101.12x0.2x1-2,MoD:101.13x0.2x1-2,MoD:101.17x0.3x1-2,MoD:102.3x0.4x1,FishingMod:27x0.5x1-1,FishingMod:3x1x2-4</column>
+				<column name="aTreasures">26.11x1x1<!--Locker-->,NSE:10.10x1x2-4,NSE:154x1x1,MoD:97.1x1x2,2.0x0.5x1,3.3x0.5x1,4.1x0.5x1-5,4.3x0.3x1-3,4.4x0.75x2-5,5.0x1x1-2,10.6x1x5-12,13.3x1x2-4,18.1x0.75x1-4,18.4x1x1,21.1x1x1,24.0x0.5x2-4,NSE:50.3x0.5x1-2,NSE:50.5x0.5x1-2,28.3x1x1,29.0x0.75x1,31.1x1x1,49.0x1x1,78.6x0.75x1,78.8x0.5x1,98.1x1x4-8,98.7x1x2-4,101.5x1x3-7,101.12x1x5-10,101.11x0.75x2-4,101.20x0.75x2-4,415x1x1-3,412x0.5x1,395x0.3x1,426x0.25x3-9,NSE:13.2x1x2-5,NSE:37x1x2-4,NSE:238x1x1,NSE:87.2x1x1-5,NSE:46x1x1-5,NSE:101.25x0.25x1-2|NSE:101.27x0.25x1-3,MoD:14.1x0.25x1,MoD:86.9x0.25x1-3,MoD:98.1x0.5x1-2,MoD:98.3x0.5x1-2,MoD:98.7x0.6x1-2,MoD:101.11x0.3x1-3,MoD:101.12x0.2x1-2,MoD:101.13x0.2x1-2,MoD:101.17x0.3x1-2,MoD:102.3x0.4x1,FishingMod:27x0.5x1-1,FishingMod:3x1x2-4</column>
 				<column name="bNested">0</column>
 				<column name="bSuppress">0</column>
 				<column name="bIdentify">1</column>
