@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pma_xml_export version="1.0">
+    <!--
+    - Database: 'neogame'
+    -->
+    <database name="neogame">
+        <!-- Table attackmodes -->
+        <!-- Table barterhexes -->
+        <!-- Table battlemoves -->
+        <!-- Table camptypes -->
+        <!-- Table chargeprofiles -->
+		<!-- Table conditions -->
+        <!-- Table containertypes -->
+        <!-- Table creatures -->
+        <!-- Table creaturesources -->
+        <!-- Table datafiles -->
+        <!-- Table encounters -->
+		<table name="encounters">
+            <column name="id">2</column>
+            <column name="strName">Scavenge a river</column>
+            <column name="strDesc">A river cuts through the terrain here, bubbling and burbling peacefully.
+
+There may even be some fish in it if you're lucky.</column>
+            <column name="strImg">FishingMod:ItmScavengeStream.png</column>
+            <column name="nTreasureID">0:3</column>
+            <column name="nRemoveTreasureID">0:3</column>
+            <column name="aConditions">0:1</column>
+            <column name="aPreConditions"></column>
+            <column name="fPrice">0</column>
+            <column name="aResponses">=0:40x1x0x0x0,0:91.2x1=0:46x1x0x0x0,0:90.10x1=0:42x1x0x0x0,FishingMod:2.3x1+FishingMod:91.1x1=FishingMod:15x1x1x0x0,FishingMod:2.1x1+FishingMod:91.1x1=FishingMod:11x1x1x0x0,FishingMod:2.2x1+FishingMod:91.1x1=FishingMod:12x1x1x0x0,0:31.0x1+FishingMod:91.1x1=FishingMod:13x1x1x0x0,0:31.1x1+FishingMod:91.1x1=FishingMod:13x1x1x0x0,0:31.2x1+FishingMod:91.1x1=FishingMod:13x1x1x0x0,FishingMod:2.3x1=FishingMod:14x1x1x0x0,FishingMod:2.1x1=FishingMod:1x1x1x0x0,FishingMod:2.2x1=FishingMod:9x1x1x0x0,0:31.0x1=FishingMod:4x1x1x0x0,0:31.1x1=FishingMod:4x1x1x0x0,0:31.2x1=FishingMod:4x1x1x0x0,FishingMod:91.1x1=FishingMod:5x1x0x0x0</column>
+            <column name="aMinimapHexes"></column>
+            <column name="bRemoveCreatures">0:0</column>
+            <column name="bRemoveUsed">0:0</column>
+            <column name="nItemsID">0:92</column>
+            <column name="nCreatureID">0:0</column>
+            <column name="ptCreatureHex">0,0</column>
+            <column name="ptTeleport">0,0</column>
+            <column name="ptEditor">-4757,7975</column>
+            <column name="nType">1</column>
+            <column name="fLootChance">0.02</column>
+            <column name="fAccidentChance">0.7</column>
+            <column name="fCreatureChance">0.3</column>
+            <column name="vAccidents">FishingMod:7</column>
+            <column name="vLoot">FishingMod:8</column>
+        </table>
+        <table name="encounters">
+            <column name="id">3</column>
+            <column name="strName">Scavenge a lake</column>
+            <column name="strDesc">A lake ripples peacefully here.
+
+There may even be some fish in it if you're lucky.</column>
+            <column name="strImg">FishingMod:ItmScavengeLake.png</column>
+            <column name="nTreasureID">0:3</column>
+            <column name="nRemoveTreasureID">0:3</column>
+            <column name="aConditions">0:1</column>
+            <column name="aPreConditions"></column>
+            <column name="fPrice">0</column>
+            <column name="aResponses">=0:40x1x0x0x0,0:91.2x1=0:46x1x0x0x0,0:90.10x1=0:42x1x0x0x0,FishingMod:2.3x1+FishingMod:91.1x1=FishingMod:15x1x1x0x0,FishingMod:2.1x1+FishingMod:91.1x1=FishingMod:11x1x1x0x0,FishingMod:2.2x1+FishingMod:91.1x1=FishingMod:12x1x1x0x0,0:31.0x1+FishingMod:91.1x1=FishingMod:13x1x1x0x0,0:31.1x1+FishingMod:91.1x1=FishingMod:13x1x1x0x0,0:31.2x1+FishingMod:91.1x1=FishingMod:13x1x1x0x0,FishingMod:2.3x1=FishingMod:14x1x1x0x0,FishingMod:2.1x1=FishingMod:1x1x1x0x0,FishingMod:2.2x1=FishingMod:9x1x1x0x0,0:31.0x1=FishingMod:4x1x1x0x0,0:31.1x1=FishingMod:4x1x1x0x0,0:31.2x1=FishingMod:4x1x1x0x0,FishingMod:91.1x1=FishingMod:5x1x0x0x0</column>
+            <column name="aMinimapHexes"></column>
+            <column name="bRemoveCreatures">0:0</column>
+            <column name="bRemoveUsed">0:0</column>
+            <column name="nItemsID">0:92</column>
+            <column name="nCreatureID">0:0</column>
+            <column name="ptCreatureHex">0,0</column>
+            <column name="ptTeleport">0,0</column>
+            <column name="ptEditor">-4757,7975</column>
+            <column name="nType">1</column>
+            <column name="fLootChance">0.03</column>
+            <column name="fAccidentChance">0.6</column>
+            <column name="fCreatureChance">0.3</column>
+            <column name="vAccidents">FishingMod:7</column>
+            <column name="vLoot">FishingMod:9</column>
+        </table>
+        <!-- Table encountertriggers -->
+        <!-- Table factions -->
+        <!-- Table forbiddenhexes -->
+        <!-- Table headlines -->
+        <!-- Table hextypes -->
+        <!-- Table ingredients -->
+        <!-- Table itemtypes -->
+        <!-- Table treasuretable -->
+    </database>
+</pma_xml_export>

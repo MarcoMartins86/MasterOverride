@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pma_xml_export version="1.0">
+    <!--
+    - Database: 'neogame'
+    -->
+    <database name="neogame">
+        <!-- Table attackmodes -->
+        <!-- Table barterhexes -->
+        <!-- Table battlemoves -->
+        <!-- Table camptypes -->
+        <!-- Table chargeprofiles -->
+		<!-- Table conditions -->
+		<table name="conditions">
+            <column name="id">06007</column>
+            <column name="strName">Knitwit Recipes</column>
+            <column name="strDesc">&lt;us&gt; knows Knitwit recipes.</column>
+            <column name="aFieldNames">AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe</column>
+            <column name="aModifiers">23001,23003,23005,23007,23009,23011,MONC:2,MONC:3,MONC:4,MONC:5,MONC:6</column>
+            <column name="aEffects"></column>
+            <column name="bFatal">0</column>
+            <column name="vIDNext">0</column>
+            <column name="fDuration">0</column>
+            <column name="bPermanent">1</column>
+            <column name="vChanceNext">0</column>
+            <column name="bStackable">0</column>
+            <column name="bDisplay">0</column>
+            <column name="bDisplayOther">0</column>
+            <column name="bDisplayGameOver">0</column>
+            <column name="nColor">0</column>
+            <column name="bResetTimer">1</column>
+            <column name="bRemoveAll">0</column>
+            <column name="bRemovePostCombat">0</column>
+            <column name="nTransferRange">-1</column>
+            <column name="aThresholds"></column>
+        </table>
+        <!-- Table containertypes -->
+        <!-- Table creatures -->
+        <!-- Table creaturesources -->
+        <!-- Table datafiles -->
+        <!-- Table encounters -->
+        <!-- Table encountertriggers -->
+        <!-- Table factions -->
+        <!-- Table forbiddenhexes -->
+        <!-- Table headlines -->
+        <!-- Table hextypes -->
+        <!-- Table ingredients -->
+		<table name="ingredients">
+            <column name="nID">19003</column>
+            <column name="strName">reinforced &quot;Hiya Poopy&quot; children's backpack</column>
+            <column name="strRequiredProps">20003</column>
+            <column name="strForbidProps"></column>
+        </table>
+		<table name="ingredients">
+            <column name="nID">19005</column>
+            <column name="strName">reinforced green &quot;LM: RIOT&quot; duffel bag</column>
+            <column name="strRequiredProps">20005</column>
+            <column name="strForbidProps"></column>
+        </table>
+		<table name="ingredients">
+            <column name="nID">19006</column>
+            <column name="strName">reinforced Pearson &quot;Yukon&quot; canvas backpack</column>
+            <column name="strRequiredProps">20006</column>
+            <column name="strForbidProps"></column>
+        </table>
+		<table name="ingredients">
+            <column name="nID">19007</column>
+            <column name="strName">&quot;Hiya Poopy&quot; children's backpack</column>
+            <column name="strRequiredProps">20007</column>
+            <column name="strForbidProps"></column>
+        </table>
+		<table name="ingredients">
+            <column name="nID">19009</column>
+            <column name="strName">green &quot;LM: RIOT&quot; duffel bag</column>
+            <column name="strRequiredProps">20009</column>
+            <column name="strForbidProps"></column>
+        </table>
+		<table name="ingredients">
+            <column name="nID">19011</column>
+            <column name="strName">Pearson &quot;Yukon&quot; canvas backpack</column>
+            <column name="strRequiredProps">20011</column>
+            <column name="strForbidProps"></column>
+        </table>
+		<!-- Table itemprops -->
+		<table name="itemprops">
+            <column name="nID">20003</column>
+            <column name="strPropertyName">reinforced &quot;Hiya Poopy&quot; children's backpack</column>
+        </table>
+        <table name="itemprops">
+            <column name="nID">20005</column>
+            <column name="strPropertyName">reinforced green &quot;LM: RIOT&quot; duffel bag</column>
+        </table>
+		<table name="itemprops">
+            <column name="nID">20006</column>
+            <column name="strPropertyName">reinforced Pearson &quot;Yukon&quot; canvas backpack</column>
+        </table>
+        <!-- Table itemtypes -->
+		<table name="itemtypes">
+            <column name="id">21005</column>
+            <column name="nGroupID">99</column>
+            <column name="nSubgroupID">9901</column>
+            <column name="strName">reinforced bag</column>
+            <column name="strDesc">reinforced &quot;Hiya Poopy&quot; children's backpack</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">0:ItmBackpackChildClosed.png,0:ItmBackpackChildOpen.png</column>
+            <column name="vSpriteList">20=0:CreItmBackpackPoopyL.png,21=0:CreItmBackpackPoopyR.png,22=0:CreItmBackpackPoopyBack.png</column>
+            <column name="vImageUsage">1,0,1,0,1,0</column>
+            <column name="fWeight">0.38</column>
+            <column name="fMonetaryValue">32</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.000721</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:11,0:3</column>
+            <column name="aEquipConditions"></column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">6x8</column>
+            <column name="vEquipSlots">22,20,21</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">20003<!--t2 bag-->,0:8,0:16,0:37,0:46,0:48,0:50,0:87</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:18,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,NSE:2,NSE:3,NSE:4,NSE:5,NSE:6,NSE:7,NSE:8,NSE:9,NSE:10,NSE:11,NSE:12,NSE:14,NSE:16,NSE:17,MoD:3,MoD:4,MoD:5,MoD:6</column>
+            <column name="nFormatID">0:39</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">0:cueBackPackPickup,0:cueBackPackPutdown</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">21007</column>
+            <column name="nGroupID">99</column>
+            <column name="nSubgroupID">9903</column>
+            <column name="strName">reinforced bag</column>
+            <column name="strDesc">reinforced green &quot;LM: RIOT&quot; duffel bag</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">0:ItmDuffle.png,0:ItmDuffleEmpty.png,0:ItmDuffleWorn.png</column>
+            <column name="vSpriteList">13=0:CreItmBagDuffelBack.png,20=0:CreItmBagDuffelL.png,21=0:CreItmBagDuffelR.png</column>
+            <column name="vImageUsage">1,0,0,0,2,2</column>
+            <column name="fWeight">0.59</column>
+            <column name="fMonetaryValue">50</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.00042</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:11,0:3</column>
+            <column name="aEquipConditions"></column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">10x6</column>
+            <column name="vEquipSlots">13=2=2,20=0=0,21=0=0</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">20005<!--t3 bag-->,0:8,0:16,0:37,0:46,0:48,0:50,0:75,0:87</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:18,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,NSE:2,NSE:3,NSE:4,NSE:5,NSE:6,NSE:7,NSE:8,NSE:9,NSE:10,NSE:11,NSE:12,NSE:14,NSE:16,NSE:17,MoD:3,MoD:4,MoD:5,MoD:6</column>
+            <column name="nFormatID">0:39</column>
+            <column name="nTreasureID">0:592</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">0:cueBackPackPickup,0:cueBackPackPutdown</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">21009</column>
+            <column name="nGroupID">99</column>
+            <column name="nSubgroupID">9905</column>
+            <column name="strName">reinforced bag</column>
+            <column name="strDesc">reinforced Pearson &quot;Yukon&quot; canvas backpack</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">0:ItmBackpack.png,0:ItmBackpackStored.png</column>
+            <column name="vSpriteList">20=0:CreItmBackpackCanvasL.png,21=0:CreItmBackpackCanvasR.png,22=0:CreItmBackpackCanvasBack.png</column>
+            <column name="vImageUsage">1,0,1,0,1,0</column>
+            <column name="fWeight">0.5</column>
+            <column name="fMonetaryValue">50</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.00042</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">MoD:189,0:3</column>
+            <column name="aEquipConditions"></column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">10x10</column>
+            <column name="vEquipSlots">22,20,21</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">20006<!--t3 bag-->,0:8,0:16,0:37,0:46,0:48,0:50,0:87</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:18,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,NSE:2,NSE:3,NSE:4,NSE:5,NSE:6,NSE:7,NSE:8,NSE:9,NSE:10,NSE:11,NSE:12,NSE:14,NSE:16,NSE:17,MoD:3,MoD:4,MoD:5,MoD:6</column>
+            <column name="nFormatID">0:39</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">0:cueBackPackPickup,0:cueBackPackPutdown</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">21023</column>
+            <column name="nGroupID">99</column>
+            <column name="nSubgroupID">9917</column>
+            <column name="strName">vehicle</column>
+            <column name="strDesc">reinforced plastic sled</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">0:ItmPlasticSled.png,0:ItmPlasticSledFull.png</column>
+            <column name="vSpriteList"></column>
+            <column name="vImageUsage">0,1,0,1,0,1</column>
+            <column name="fWeight">1.4</column>
+            <column name="fMonetaryValue">12</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.001</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:3,0:3</column>
+            <column name="aEquipConditions">207=0:399,207=0:477,207=0:488</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">17x12</column>
+            <column name="vEquipSlots">207</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">20023<!--t2-->,0:8,0:28,0:36,0:48,0:60,0:65,0:87,0:102</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:18,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,0:39,NSE:2,NSE:3,NSE:4,NSE:5,NSE:6,NSE:7,NSE:8,NSE:9,NSE:10,NSE:11,NSE:12,NSE:14,NSE:16,NSE:17,MoD:3,MoD:4,MoD:5,MoD:6</column>
+            <column name="nFormatID">0:24</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">0:cuePlasticSledPickup,0:cuePlasticSledPutdown</column>
+        </table>
+    <!--Item, Repair&ReinforceMechanic: sledStrap: -->
+        <table name="itemtypes">
+            <column name="id">21025</column>
+            <column name="nGroupID">99</column>
+            <column name="nSubgroupID">9919</column>
+            <column name="strName">vehicle</column>
+            <column name="strDesc">reinforced sled w/strap</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">0:ItmPlasticSledStrap.png,0:ItmPlasticSledStrapFull.png</column>
+            <column name="vSpriteList"></column>
+            <column name="vImageUsage">0,1,0,1,0,1</column>
+            <column name="fWeight">1.6</column>
+            <column name="fMonetaryValue">15</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.001</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:3,0:3</column>
+            <column name="aEquipConditions">207=0:398,207=0:477,207=0:488</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">17x12</column>
+            <column name="vEquipSlots">207</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">20023<!--t2-->,0:8,0:28,0:36,0:48,0:60,0:65,0:87,0:102</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:18,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,0:39,NSE:2,NSE:3,NSE:4,NSE:5,NSE:6,NSE:7,NSE:8,NSE:9,NSE:10,NSE:11,NSE:12,NSE:14,NSE:16,NSE:17,MoD:3,MoD:4,MoD:5,MoD:6</column>
+            <column name="nFormatID">0:24</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:366</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">0:cuePlasticSledPickup,0:cuePlasticSledPutdown</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">21029</column>
+            <column name="nGroupID">99</column>
+            <column name="nSubgroupID">9923</column>
+            <column name="strName">vehicle</column>
+            <column name="strDesc">reinforced box cart</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">0:ItmBoxCart.png,0:ItmBoxCartFull.png</column>
+            <column name="vSpriteList"></column>
+            <column name="vImageUsage">0,1,0,1,0,1</column>
+            <column name="fWeight">10.75</column>
+            <column name="fMonetaryValue">60</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.002</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:3,0:3</column>
+            <column name="aEquipConditions">207=0:74,207=0:477,207=0:488</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">17x16</column>
+            <column name="vEquipSlots">207</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">20025<!--t3-->,0:8,0:10,0:17,0:28,0:48,0:50,0:87,0:102</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:18,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,0:39,NSE:2,NSE:3,NSE:4,NSE:5,NSE:6,NSE:7,NSE:8,NSE:9,NSE:10,NSE:11,NSE:12,NSE:14,NSE:16,NSE:17,MoD:3,MoD:4,MoD:5,MoD:6</column>
+            <column name="nFormatID">0:24</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:355</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">0:cueBoxCartPickupShort,0:cueBoxCartPutdownShort</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">21031</column>
+            <column name="nGroupID">99</column>
+            <column name="nSubgroupID">9925</column>
+            <column name="strName">bow</column>
+            <column name="strDesc">bow w/strap</column>
+            <column name="strDescAlt">reinforced compound bow w/strap</column>
+            <column name="nCondID">0:87</column>
+            <column name="vImageList">0:ItmBowCompoundStrapWorn.png,0:ItmBowCompoundStrapStored.png,0:ItmBowCompoundStrapHeld.png</column>
+            <column name="vSpriteList">20=0:CreItmBowCompoundL.png,21=0:CreItmBowCompoundR.png</column>
+            <column name="vImageUsage">1,1,0,0,2,2</column>
+            <column name="fWeight">1.8</column>
+            <column name="fMonetaryValue">205</column>
+            <column name="fMonetaryValueAlt">205</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0</column>
+            <column name="fDegradePerUse">0.0006</column>
+            <column name="vDegradeTreasureIDs">0:3,0:3</column>
+            <column name="aEquipConditions"></column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">10x1</column>
+            <column name="vEquipSlots">13=0=0,14=0=0,21=2=2,20=2=2</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">20039,0:9,0:10,0:17,0:28,0:48,0:50,0:60,0:75,0:87</column>
+            <column name="aContentIDs">0:18</column>
+            <column name="nFormatID">0:3</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:376</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes">20=0:26,20=0:27,20=0:28,21=0:26,21=0:27,21=0:28</column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">0:cueBowPickup1,0:cueBowPutdown1</column>
+        </table>
+        <!-- Table maps -->
+        <!-- Table recipes -->
+		<table name="recipes">
+            <column name="nID">23001</column>
+            <column name="strName">&quot;Hiya Poopy&quot; bag</column>
+            <column name="strSecretName"></column>
+            <column name="strTools">1x19001<!--Knitwit-->+1xNSE:73</column>
+            <column name="strConsumed">1x19007<!--Poopy Bag-->+8x0:30+12x0:13</column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">NSE:182</column>
+            <column name="fHours">2</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">0</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry"></column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">0</column>
+            <column name="strType">repair</column>
+            <column name="bScrap">0</column>
+        </table>
+        <table name="recipes">
+            <column name="nID">23003</column>
+            <column name="strName">&quot;Hiya Poopy&quot; bag</column>
+            <column name="strSecretName">cannibalized poopy bag</column>
+            <column name="strTools">1x19001<!--Knitwit-->+1xNSE:73+1x0:14</column>
+            <column name="strConsumed">2x19007<!--Poopy Bag--></column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">24001</column>
+            <column name="fHours">2</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">0</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry">MONC:7</column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">0</column>
+            <column name="strType">reinforce</column>
+            <column name="bScrap">0</column>
+        </table>
+        <table name="recipes">
+            <column name="nID">23005</column>
+            <column name="strName">&quot;LM: RIOT&quot; duffel bag</column>
+            <column name="strSecretName"></column>
+            <column name="strTools">1x19001<!--Knitwit-->+1xNSE:77</column>
+            <column name="strConsumed">1x19009<!--Duffel-->+12x0:30+16x0:13+2xNSE:36</column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">NSE:183</column>
+            <column name="fHours">2</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">0</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry"></column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">0</column>
+            <column name="strType">repair</column>
+            <column name="bScrap">0</column>
+        </table>
+        <table name="recipes">
+            <column name="nID">23007</column>
+            <column name="strName">&quot;LM: RIOT&quot; duffel bag</column>
+            <column name="strSecretName">cannibalized duffel bag</column>
+            <column name="strTools">1x19001<!--Knitwit-->+1xNSE:77+1x0:14</column>
+            <column name="strConsumed">2x19009<!--Duffel--></column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">24003</column>
+            <column name="fHours">2</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">0</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry"></column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">0</column>
+            <column name="strType">reinforce</column>
+            <column name="bScrap">0</column>
+        </table>
+        <table name="recipes">
+            <column name="nID">23009</column>
+            <column name="strName">Pearson &quot;Yukon&quot; bag</column>
+            <column name="strSecretName"></column>
+            <column name="strTools">1x19001<!--Knitwit-->+1xNSE:77</column>
+            <column name="strConsumed">1x19011<!--Yukon Bag-->+8xNSE:36+4xNSE:28+18x0:13+2xNSE:37</column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">NSE:184</column>
+            <column name="fHours">2</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">0</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry"></column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">0</column>
+            <column name="strType">repair</column>
+            <column name="bScrap">0</column>
+        </table>
+        <table name="recipes">
+            <column name="nID">23011</column>
+            <column name="strName">Pearson &quot;Yukon&quot; bag</column>
+            <column name="strSecretName">cannibalized yukon bag</column>
+            <column name="strTools">1x19001<!--Knitwit-->+1xNSE:77+1x0:14</column>
+            <column name="strConsumed">2x19011<!--Yukon Bag--></column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">24005</column>
+            <column name="fHours">2</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">0</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry"></column>
+            <column name="nTempTreasureID">0:3</column>
+            <column name="bDegradeOutput">0</column>
+            <column name="strType">reinforce</column>
+            <column name="bScrap">0</column>
+        </table>
+        <!-- Table treasuretable -->
+    </database>
+</pma_xml_export>
