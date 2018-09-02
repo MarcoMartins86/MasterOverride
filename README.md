@@ -83,7 +83,7 @@ Also to use this mod you need to install all of the following mods:
 		* 0Horses/
 		* Horses/
 		
-- [Backpack Mod v???](https://bluebottlegames.com/content/wip-backpack-mod) and extract to:
+- [Backpack Mod (with NSE) v???](https://bluebottlegames.com/content/wip-backpack-mod) and extract to:
 	+ [NeoSavengerGameFolder]/Mods/Backpack/
 		* AddOn/
 		* VanillaOverride/
