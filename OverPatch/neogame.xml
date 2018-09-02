@@ -395,7 +395,7 @@
             <column name="strName">&quot;Hiya Poopy&quot; bag</column>
             <column name="strSecretName">cannibalized poopy bag</column>
             <column name="strTools">1x19001<!--Knitwit-->+1xNSE:73+1x0:14</column>
-            <column name="strConsumed">2x19007<!--Poopy Bag--></column>
+            <column name="strConsumed">2x19007<!--Poopy Bag-->+12x0:13</column>
             <column name="strDestroyed"></column>
             <column name="nTreasureID">24001</column>
             <column name="fHours">2</column>
@@ -433,7 +433,7 @@
             <column name="strName">&quot;LM: RIOT&quot; duffel bag</column>
             <column name="strSecretName">cannibalized duffel bag</column>
             <column name="strTools">1x19001<!--Knitwit-->+1xNSE:77+1x0:14</column>
-            <column name="strConsumed">2x19009<!--Duffel--></column>
+            <column name="strConsumed">2x19009<!--Duffel-->+16x0:13</column>
             <column name="strDestroyed"></column>
             <column name="nTreasureID">24003</column>
             <column name="fHours">2</column>
@@ -471,7 +471,7 @@
             <column name="strName">Pearson &quot;Yukon&quot; bag</column>
             <column name="strSecretName">cannibalized yukon bag</column>
             <column name="strTools">1x19001<!--Knitwit-->+1xNSE:77+1x0:14</column>
-            <column name="strConsumed">2x19011<!--Yukon Bag--></column>
+            <column name="strConsumed">2x19011<!--Yukon Bag-->+18x0:13</column>
             <column name="strDestroyed"></column>
             <column name="nTreasureID">24005</column>
             <column name="fHours">2</column>

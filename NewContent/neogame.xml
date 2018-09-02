@@ -233,7 +233,7 @@
             <column name="strName">&quot;Hiya Poopy&quot; bag</column>
             <column name="strSecretName">cannibalized poopy bag</column>
             <column name="strTools">1xNSE:74+1xNSE:73+1x0:14</column>
-            <column name="strConsumed">2xOver:19007<!--Poopy Bag--></column>
+            <column name="strConsumed">2xOver:19007<!--Poopy Bag-->+12x0:13</column>
             <column name="strDestroyed"></column>
             <column name="nTreasureID">Over:24001</column>
             <column name="fHours">2</column>

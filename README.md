@@ -1,5 +1,5 @@
-# MasterOverride v0.3
-NeoScavenger MasterOverride mod tested with Steam game version 1.15 1/6/2017 and made by me (Marco Martins).
+# MasterOverride v0.4
+[NeoScavenger MasterOverride mod](https://bluebottlegames.com/content/wipmergensemodoverfishingmodshouldermodbottlemodbackpackmodhorsesdevkitbluerot) tested with Steam game version 1.15 1/6/2017 and made by me (Marco Martins).
 This is still in really early state of creation.
 Mod should be placed into:
 + [NeoSavengerGameFolder]/Mods/MasterOverride/
@@ -87,3 +87,8 @@ Also to use this mod you need to install all of the following mods:
 	+ [NeoSavengerGameFolder]/Mods/Backpack/
 		* AddOn/
 		* VanillaOverride/
+
+- [Training Skill Extended v0.8](https://bluebottlegames.com/node/6126) and extract to:
+	+ [NeoSavengerGameFolder]/Mods/TrainingMod/
+		* 0/
+		* TrainingMod/
