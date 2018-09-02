@@ -622,6 +622,39 @@ And alon	g with it, your hopes of finding a warm meal and some answers. You deci
 				<column name="vAccidents"></column>
 				<column name="vLoot">0</column>
 			</table>
+			<!-- MoDZero, Training -->
+			<table name="encounters">
+				<column name="id">1500</column>
+				<column name="strName">ATN Main Area</column>
+				<column name="strDesc">You're standing in the Anishinaabe Tribal Nation's gathering area, by the Great Fire.
+	
+Around you, you see an area where people are sharing a meal together, and a trader of goods.
+	
+Further away, you see a cluster of huts near a sweat lodge, where Joe, the Nooke Midewinini, tends to the sick and wounded.
+
+On the opposite side lies a small open field close to several huts, which serves as a training area.</column>
+				<column name="strImg">EncAnishinabe.png</column>
+				<column name="nTreasureID">3</column>
+				<column name="nRemoveTreasureID">3</column>
+				<column name="aConditions">1</column>
+				<column name="aPreConditions">-551</column>
+				<column name="fPrice">0</column>
+				<column name="aResponses">90.69x1=1520x1x0x0x0,90.66x1=1519x1x0x0x0,90.68x1=1518x1x0x0x0,90.28x1=TRN:3000x1x0x0x0,90.10x1=1525x1x0x0x0,90.66x1=1546x1x0x0x0,90.69x1=1547x1x0x0x0,90.20x1=1883x1x0x0x0,78.0x1=MoD:219x1x0x0x0,=1500x1x0x0x0,4.4x1=MoD:230x1x0x0x0,4.4x1=MoD:231x1x0x0x0,4.4x1=MoD:233x1x0x0x0</column>
+				<column name="aMinimapHexes"></column>
+				<column name="bRemoveCreatures">0</column>
+				<column name="bRemoveUsed">0</column>
+				<column name="nItemsID">562</column>
+				<column name="nCreatureID">0</column>
+				<column name="ptCreatureHex">0,0</column>
+				<column name="ptTeleport">26,104</column>
+				<column name="ptEditor">53575,-17000</column>
+				<column name="nType">0</column>
+				<column name="fLootChance">0</column>
+				<column name="fAccidentChance">0</column>
+				<column name="fCreatureChance">0</column>
+				<column name="vAccidents"></column>
+				<column name="vLoot">0</column>
+			</table>
         <!-- Table encountertriggers -->
         <!-- Table factions -->
 			<!-- NSEoverride, MoDZero -->
@@ -5955,6 +5988,15 @@ And alon	g with it, your hopes of finding a warm meal and some answers. You deci
 				<column name="aTreasures">5.0x1x1,11.4x1x1,98.7x1x2,18.4x0.3x1</column>
 				<column name="bNested">1</column>
 				<column name="bSuppress">1</column>
+				<column name="bIdentify">0</column>
+			</table>
+			<!-- MoDZero, Training -->
+			<table name="treasuretable">
+				<column name="id">562</column>
+				<column name="strName">Aid, give, reach down, train, exit</column>
+				<column name="aTreasures">90.10x1.0x1-1,90.28x1.0x1-1,90.69x1.0x1-1,90.66x1.0x1-1,90.68x1.0x1-1,4.4x1x1</column>
+				<column name="bNested">0</column>
+				<column name="bSuppress">0</column>
 				<column name="bIdentify">0</column>
 			</table>
 			<!-- NSEoverride, MoDZero -->

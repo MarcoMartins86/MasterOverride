@@ -24,6 +24,45 @@
         <!-- Table ingredients -->
         <!-- Table itemtypes -->
 		<table name="itemtypes">
+            <column name="id">11</column>
+            <column name="nGroupID">23</column>
+            <column name="nSubgroupID">2</column>
+            <column name="strName">blade</column>
+            <column name="strDesc">hatchet</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">ItmHatchetStored.png,ItmHatchetHeld.png</column>
+            <column name="vSpriteList">20=CreItmHatchetL.png,21=CreItmHatchetR.png</column>
+            <column name="vImageUsage">0,0,0,0,1,1</column>
+            <column name="fWeight">2</column>
+            <column name="fMonetaryValue">45</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.0001</column>
+            <column name="fDegradePerUse">0.001</column>
+            <column name="vDegradeTreasureIDs">0:3,0:3</column>
+            <column name="aEquipConditions"></column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities"></column>
+            <column name="vEquipSlots">21=1=1,20=1=1</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:6,0:9,0:10,0:16,0:21,0:28,0:48,0:50,0:87,NSE:61</column>
+            <column name="aContentIDs"></column>
+            <column name="nFormatID">0:3</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes">20=2,21=2</column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">0:cueSwordUnSheathing,0:cueMetalClangHit2</column>
+        </table>
+		<table name="itemtypes">
             <column name="id">13</column>
             <column name="nGroupID">5</column>
             <column name="nSubgroupID">1</column>
