@@ -24,6 +24,45 @@
         <!-- Table ingredients -->
         <!-- Table itemtypes -->
 		<table name="itemtypes">
+            <column name="id">1</column>
+            <column name="nGroupID">78</column>
+            <column name="nSubgroupID">1</column>
+            <column name="strName">clothes (torso)</column>
+            <column name="strDesc">olive-colored hoodie</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">ItmHoodedHoodie.png,0:ItmHoodieStored.png</column>
+            <column name="vSpriteList">11=CreItmHoodedHoodie.png</column>
+            <column name="vImageUsage">1,1,0,0,1,1</column>
+            <column name="fWeight">0.5</column>
+            <column name="fMonetaryValue">10</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.0010</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:11,0:3</column>
+            <column name="aEquipConditions">11=0:37,11=1</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">2x3</column>
+            <column name="vEquipSlots">11=0=0,21,20</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:16,0:36,0:37,0:46,0:48,0:50,58</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,5,6,8,9,10,11,12,17,MoD:3,MoD:4,MoD:5</column>
+            <column name="nFormatID">5</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">1</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs">Hood Off=0:78.7</column>
+			<column name="aSounds">0:cueCloth,0:cueClothesEnd</column>
+        </table>
+		<table name="itemtypes">
             <column name="id">9</column>
             <column name="nGroupID">5</column>
             <column name="nSubgroupID">1</column>
@@ -128,7 +167,7 @@
             <column name="vUseSlots"></column>
             <column name="bSocketLocked">0</column>
             <column name="vProperties">0:9,0:16,0:19,0:48,0:50,0:76</column>
-            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,5,6,8,9,10,11,12,17,MoD:3,MoD:4,MoD:5,MoD:6</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,5,6,8,9,10,11,12,17,MoD:3,MoD:4,MoD:5</column>
             <column name="nFormatID">0:3</column>
             <column name="nTreasureID">0:0</column>
             <column name="nComponentID">0:3</column>
@@ -139,6 +178,279 @@
             <column name="nStackLimit">1</column>
             <column name="aSwitchIDs"></column>
             <column name="aSounds">0:cueUnHolsteringPistol1,0:cueHolsteringPistol1</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">118</column>
+            <column name="nGroupID">78</column>
+            <column name="nSubgroupID">7</column>
+            <column name="strName">clothes (torso)</column>
+            <column name="strDesc">red-colored hoodie</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">ItmHoodieRed.png,ItmHoodieStoredRed.png</column>
+            <column name="vSpriteList">11=CreItmHoodieRed.png</column>
+            <column name="vImageUsage">1,1,0,0,1,1</column>
+            <column name="fWeight">0.5</column>
+            <column name="fMonetaryValue">10</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.0006</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:11,3</column>
+            <column name="aEquipConditions">11=0:37,11=58</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">2x3</column>
+            <column name="vEquipSlots">11=0=0,21,20</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:16,0:36,0:37,0:46,0:48,0:50,58</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,5,6,8,9,10,11,12,17,MoD:3,MoD:4,MoD:5</column>
+            <column name="nFormatID">5</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">1</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs">Hood On=78.8</column>
+            <column name="aSounds">0:cueCloth,0:cueClothesEnd</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">119</column>
+            <column name="nGroupID">78</column>
+            <column name="nSubgroupID">8</column>
+            <column name="strName">clothes (torso)</column>
+            <column name="strDesc">red-colored hoodie</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">ItmHoodedHoodieRed.png,ItmHoodieStoredRed.png</column>
+            <column name="vSpriteList">11=CreItmHoodedHoodieRed.png</column>
+            <column name="vImageUsage">1,1,0,0,1,1</column>
+            <column name="fWeight">0.5</column>
+            <column name="fMonetaryValue">10</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.0008</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:11,0:3</column>
+            <column name="aEquipConditions">11=0:37,11=1,11=58,11=58</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">2x3</column>
+            <column name="vEquipSlots">11=0=0,21,20</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:16,0:36,0:37,0:46,0:48,0:50,58</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,5,6,8,9,10,11,12,17,MoD:3,MoD:4,MoD:5</column>
+            <column name="nFormatID">5</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">1</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs">Hood Off=78.7</column>
+			<column name="aSounds">0:cueCloth,0:cueClothesEnd</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">124</column>
+            <column name="nGroupID">5</column>
+            <column name="nSubgroupID">8</column>
+            <column name="strName">bag</column>
+            <column name="strDesc">disposable plastic shopping bag</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">0:ItmPlasticShoppingBag.png</column>
+            <column name="vSpriteList">20=0:CreItmBagPlasticL.png,21=0:CreItmBagPlasticR.png,22=0:CreItmBagPlasticBack.png</column>
+            <column name="vImageUsage">0,0,0,0,0,0</column>
+            <column name="fWeight">0.01</column>
+            <column name="fMonetaryValue">0.5</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.007</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:3,0:3</column>
+            <column name="aEquipConditions"></column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">4x6</column>
+            <column name="vEquipSlots">22=0=0,20=0=0,21=0=0</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:1,0:8,0:9,0:16,0:36,0:48,0:50,0:87</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,2,3,5,6,8,9,10,11,12,17,MoD:3,MoD:4,MoD:5,MoD:6</column>
+            <column name="nFormatID">0:3</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs">Shrink Back=0:5.3</column>
+            <column name="aSounds">0:cueBagOpenedTrimmed,0:cueBagPlasticExpandingTrimmed</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">125</column>
+            <column name="nGroupID">5</column>
+            <column name="nSubgroupID">9</column>
+            <column name="strName">bag</column>
+            <column name="strDesc">&quot;Wavs&quot; potato chip bag</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">0:ItmBagChipsOpen.png</column>
+            <column name="vSpriteList"></column>
+            <column name="vImageUsage">0,0,0,0,0,0</column>
+            <column name="fWeight">0.01</column>
+            <column name="fMonetaryValue">0.5</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.02</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:682,0:3</column>
+            <column name="aEquipConditions"></column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">3x5</column>
+            <column name="vEquipSlots">22=0=0,20=0=0,21=0=0</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:1,0:8,0:9,0:16,0:36,0:48,0:50,0:60,0:87,0:99</column>
+			<column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,2,3,5,6,8,9,10,11,12,17,MoD:3,MoD:4,MoD:5,MoD:6</column>
+            <column name="nFormatID">0:3</column>
+            <column name="nTreasureID">0:684</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs">Shrink Back=0:5.4</column>
+            <column name="aSounds">0:cueTarpPickup,0:cueTarpPutdown</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">168</column>
+            <column name="nGroupID">78</column>
+            <column name="nSubgroupID">9</column>
+            <column name="strName">clothes (torso)</column>
+            <column name="strDesc">armored black longcoat</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">ItmHoodedLongcoatBlackB.png,ItmHoodedLongcoatBlackStored.png</column>
+            <column name="vSpriteList">11=CreItmHoodedLongcoatB.png</column>
+            <column name="vImageUsage">1,1,0,0,1,1</column>
+            <column name="fWeight">3.1</column>
+            <column name="fMonetaryValue">700</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.0002</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:11,0:3</column>
+            <column name="aEquipConditions">11=95,11=98</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">2x4</column>
+            <column name="vEquipSlots">11=0=0,21,20</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:10,0:17,0:48,0:50,0:73,0:75,0:87</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,5,6,8,9,10,11,12,17,MoD:3,MoD:4,MoD:5</column>
+            <column name="nFormatID">0:3</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">1</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs">Hood On=78.10</column>
+			<column name="aSounds">0:cueTrousersTrim01,0:cueShorts</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">169</column>
+            <column name="nGroupID">78</column>
+            <column name="nSubgroupID">10</column>
+            <column name="strName">clothes (torso)</column>
+            <column name="strDesc">armored black longcoat</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">ItmHoodedLongcoatBlack.png,ItmHoodedLongcoatBlackStored.png</column>
+            <column name="vSpriteList">11=CreItmHoodedLongcoat.png</column>
+            <column name="vImageUsage">1,1,0,0,1,1</column>
+            <column name="fWeight">3.1</column>
+            <column name="fMonetaryValue">700</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.0003</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:11,0:3</column>
+            <column name="aEquipConditions">11=95,11=1,11=98</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">2x4</column>
+            <column name="vEquipSlots">11=0=0,21,20</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:10,0:17,0:48,0:50,0:73,0:75,0:87</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,5,6,8,9,10,11,12,17,MoD:3,MoD:4,MoD:5</column>
+            <column name="nFormatID">0:3</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">1</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs">Hood Off=78.9</column>
+			<column name="aSounds">0:cueTrousersTrim01,0:cueShorts</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">171</column>
+            <column name="nGroupID">78</column>
+            <column name="nSubgroupID">11</column>
+            <column name="strName">clothes (torso)</column>
+            <column name="strDesc">hunting vest</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">ItmHuntingJacket.png,ItmHuntingJacketStored.png</column>
+            <column name="vSpriteList">11=CreItmHuntingJacket.png</column>
+            <column name="vImageUsage">1,1,0,0,1,1</column>
+            <column name="fWeight">0.33</column>
+            <column name="fMonetaryValue">22</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.0003</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:11,0:3</column>
+            <column name="aEquipConditions">11=97</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">3x5</column>
+            <column name="vEquipSlots">11=0=0,21,20</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:1,0:16,0:36,0:37,0:48,0:50,60</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,5,6,8,9,10,11,12,17,MoD:3,MoD:4,MoD:5</column>
+            <column name="nFormatID">5</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">1</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">0:cueCloth,0:cueClothesEnd</column>
         </table>
 		<table name="itemtypes">
             <column name="id">202</column>
@@ -256,6 +568,84 @@
             <column name="nStackLimit">1</column>
             <column name="aSwitchIDs"></column>
             <column name="aSounds">0:cueBackPackPickup,0:cueBackPackPutdown</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">277</column>
+            <column name="nGroupID">78</column>
+            <column name="nSubgroupID">15</column>
+            <column name="strName">clothes (torso)</column>
+            <column name="strDesc">rawhide hooded long coat</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">1</column>
+            <column name="vImageList">ItmHideLongCoatB.png,0:ItmHideLongCoatStored.png</column>
+            <column name="vSpriteList">11=0:CreItmHideLongCoat.png</column>
+            <column name="vImageUsage">1,1,0,0,1,1</column>
+            <column name="fWeight">1.86</column>
+            <column name="fMonetaryValue">175</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.0001</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:557,0:3</column>
+            <column name="aEquipConditions">11=0:38</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">3x3</column>
+            <column name="vEquipSlots">11=0=0,21,20</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:17,0:36,0:46,0:48,0:50</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,5,6,8,9,10,11,12,17,MoD:3,MoD:4,MoD:5</column>
+            <column name="nFormatID">0:3</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:557</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">1</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs">Hood On=78.16</column>
+            <column name="aSounds">0:cueTrousersTrim01,0:cueShorts</column>
+        </table>
+		<table name="itemtypes">
+            <column name="id">278</column>
+            <column name="nGroupID">78</column>
+            <column name="nSubgroupID">16</column>
+            <column name="strName">clothes (torso)</column>
+            <column name="strDesc">rawhide hooded long coat</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">1</column>
+            <column name="vImageList">ItmHideLongCoatHoodedB.png,0:ItmHideLongCoatStored.png</column>
+            <column name="vSpriteList">11=CreItmHideLongCoatB.png</column>
+            <column name="vImageUsage">1,1,0,0,1,1</column>
+            <column name="fWeight">1.86</column>
+            <column name="fMonetaryValue">175</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.0002</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:557,0:3</column>
+            <column name="aEquipConditions">11=0:38,11=1</column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">3x3</column>
+            <column name="vEquipSlots">11=0=0,21,20</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:17,0:36,0:46,0:48,0:50</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,5,6,8,9,10,11,12,17,MoD:3,MoD:4,MoD:5</column>
+            <column name="nFormatID">0:3</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:557</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">1</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs">Hood Off=78.15</column>
+            <column name="aSounds">0:cueTrousersTrim01,0:cueShorts</column>
         </table>
         <!-- Table maps -->
         <!-- Table recipes -->

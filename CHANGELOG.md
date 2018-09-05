@@ -1,6 +1,12 @@
 # Changelog
 I will try to keep all relevant changes listed in this file.
 
+## [v0.5] - 2018-09-05
+### Changed
+- MoD "worn-out leather suitcase" to be able to carry NSE items
+- Solved lockpick recipe conflict (NSE, MoD)
+- Some containers to be compatible with both NSE and MoD items
+
 ## [v0.4] - 2018-09-02
 ### Added
 - Added Training Skill Extended v0.8 mod compatibility

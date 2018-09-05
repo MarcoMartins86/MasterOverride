@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pma_xml_export version="1.0">
+    <!--
+    - Database: 'neogame'
+    -->
+    <database name="neogame">
+        <!-- Table attackmodes -->
+        <!-- Table barterhexes -->
+        <!-- Table battlemoves -->
+        <!-- Table camptypes -->
+        <!-- Table chargeprofiles -->
+		<!-- Table conditions -->
+        <!-- Table containertypes -->
+        <!-- Table creatures -->
+        <!-- Table creaturesources -->
+        <!-- Table datafiles -->
+        <!-- Table encounters -->
+        <!-- Table encountertriggers -->
+        <!-- Table factions -->
+        <!-- Table forbiddenhexes -->
+        <!-- Table headlines -->
+        <!-- Table hextypes -->
+        <!-- Table ingredients -->
+        <!-- Table itemtypes -->
+		<table name="itemtypes">
+            <column name="id">700</column>
+            <column name="nGroupID">200</column>
+            <column name="nSubgroupID">1</column>
+            <column name="strName">bag</column>
+            <column name="strDesc">Trailblazer &quot;Assault&quot; military backpack</column>
+            <column name="strDescAlt"></column>
+            <column name="nCondID">0:1</column>
+            <column name="vImageList">ItmBackpackMilitary.png,ItmBackpackMilitaryStored.png</column>
+            <column name="vSpriteList">20=CreItmBackpackMilitaryL.png,21=CreItmBackpackMilitaryR.png,22=CreItmBackpackMilitaryBack.png</column>
+            <column name="vImageUsage">1,0,1,0,1,0</column>
+            <column name="fWeight">0.8</column>
+            <column name="fMonetaryValue">250</column>
+            <column name="fMonetaryValueAlt">0</column>
+            <column name="fDurability">1</column>
+            <column name="fDegradePerHour">0</column>
+            <column name="fEquipDegradePerHour">0.0003</column>
+            <column name="fDegradePerUse">0</column>
+            <column name="vDegradeTreasureIDs">0:11,3</column>
+            <column name="aEquipConditions"></column>
+            <column name="aPossessConditions"></column>
+            <column name="aUseConditions"></column>
+            <column name="aCapacities">11x11</column>
+            <column name="vEquipSlots">22,20,21</column>
+            <column name="vUseSlots"></column>
+            <column name="bSocketLocked">0</column>
+            <column name="vProperties">0:8,0:16,0:37,0:46,0:48,0:50,0:87</column>
+            <column name="aContentIDs">0:2,0:3,0:8,0:9,0:14,0:18,0:19,0:20,0:21,0:22,0:23,0:25,0:29,0:30,0:31,0:33,0:34,0:36,0:37,0:38,NSE:2,NSE:3,NSE:4,NSE:5,NSE:6,NSE:7,NSE:8,NSE:9,NSE:10,NSE:11,NSE:12,NSE:14,NSE:16,NSE:17,MoD:3,MoD:4,MoD:5,MoD:6</column>
+            <column name="nFormatID">0:39</column>
+            <column name="nTreasureID">0:0</column>
+            <column name="nComponentID">0:3</column>
+            <column name="bMirrored">0</column>
+            <column name="nSlotDepth">0</column>
+            <column name="strChargeProfiles"></column>
+            <column name="aAttackModes"></column>
+            <column name="nStackLimit">1</column>
+            <column name="aSwitchIDs"></column>
+            <column name="aSounds">0:cueBackPackPickup,0:cueBackPackPutdown</column>
+        </table>
+        <!-- Table treasuretable -->
+    </database>
+</pma_xml_export>

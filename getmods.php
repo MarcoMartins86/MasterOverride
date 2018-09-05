@@ -1,4 +1,4 @@
-nRows=47
+nRows=48
 &strModName0=NSE&strModURL0=Mods/NeoScavExtended/NSExtended
 &strModName1=0&strModURL1=Mods/NeoScavExtended/NSEoverride
 &strModName2=Over&strModURL2=Mods/Overhaul/AddOn
@@ -46,3 +46,4 @@ nRows=47
 &strModName44=Over&strModURL44=Mods/MasterOverride/OverPatch
 &strModName45=FishingMod&strModURL45=Mods/MasterOverride/FishingPatch
 &strModName46=Horses&strModURL46=Mods/MasterOverride/HorsesPatch
+&strModName47=BBwithNSE&strModURL47=Mods/MasterOverride/BBwithNSEPatch

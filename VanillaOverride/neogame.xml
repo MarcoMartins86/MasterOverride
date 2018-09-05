@@ -4802,6 +4802,26 @@ On the opposite side lies a small open field close to several huts, which serves
 				<column name="strType">weapon</column>
 				<column name="bScrap">1</column>
 			</table>
+			<!-- NSEoverride, MoD -->
+			<table name="recipes">
+				<column name="nID">15</column>
+				<column name="strName">lockpicks (from small parts)</column>
+				<column name="strSecretName"></column>
+				<column name="strTools">1x23+1xNSE:83</column>
+				<column name="strConsumed">8x21</column>
+				<column name="strDestroyed"></column>
+				<column name="nTreasureID">86</column>
+				<column name="fHours">0.5</column>
+				<column name="nReverse">1</column>
+				<column name="nHiddenID">0</column>
+				<column name="bIdentify">0</column>
+				<column name="bTransferComponents">0</column>
+				<column name="vAlsoTry"></column>
+				<column name="nTempTreasureID">3</column>
+				<column name="bDegradeOutput">1</column>
+				<column name="strType">tool</column>
+				<column name="bScrap">1</column>
+			</table>
 			<!-- NSEoverride, Overhaul -->
 			<table name="recipes">
 				<column name="nID">17</column>
