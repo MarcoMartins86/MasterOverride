@@ -1,6 +1,10 @@
 # Changelog
 I will try to keep all relevant changes listed in this file.
 
+## [v0.6] - 2018-09-06
+### Changed
+- MoD "work permit software" to the new NSE software size
+
 ## [v0.5] - 2018-09-05
 ### Changed
 - MoD "worn-out leather suitcase" to be able to carry NSE items
