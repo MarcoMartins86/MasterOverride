@@ -1,6 +1,10 @@
 # Changelog
 I will try to keep all relevant changes listed in this file.
 
+## [v0.8] - 2018-11-19
+### Changed
+- MoD empty cans properties to have the NSE:4 (metallic) property needed for some recipes
+
 ## [v0.7] - 2018-11-10
 ### Added
 - Training mod override to fix the tresuretable where references were pointing to vanilla instead of own mod (the mod who created them)
