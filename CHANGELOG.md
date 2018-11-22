@@ -1,6 +1,10 @@
 # Changelog
 I will try to keep all relevant changes listed in this file.
 
+## [v0.9] - 2018-11-22
+### Added
+- Depths of Gyges v1.01 compatibility
+
 ## [v0.8] - 2018-11-19
 ### Changed
 - MoD empty cans properties to have the NSE:4 (metallic) property needed for some recipes
