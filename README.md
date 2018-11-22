@@ -1,14 +1,16 @@
-# MasterOverride v0.8
+# MasterOverride v0.9
 [NeoScavenger MasterOverride mod](https://bluebottlegames.com/content/wipmergensemodoverfishingmodshouldermodbottlemodbackpackmodhorsesdevkitbluerot) tested with Steam game version 1.15 1/6/2017 and made by me (Marco Martins).
 This is still in really early state of creation.
 Mod should be placed into:
 + [NeoSavengerGameFolder]/Mods/MasterOverride/
+	* BBwithNSEPatch/
 	* FishingPatch/
 	* HorsesPatch/
 	* MoDPatch/
 	* NewContent/
 	* NSEPatch/
 	* OverPatch/
+	* TrainingPatch/
 	* VanillaOverride/ 
 
 Its getmods.php should replace the one in the game folder.
@@ -92,3 +94,8 @@ Also to use this mod you need to install all of the following mods:
 	+ [NeoSavengerGameFolder]/Mods/TrainingMod/
 		* 0/
 		* TrainingMod/
+		
+- [Depths of Gyges v1.01](https://bluebottlegames.com/node/4925) and extract to:
+	+ [NeoSavengerGameFolder]/Mods/Depths of Gyges/
+		* Depths of Gyges/
+		* DoGZero/
