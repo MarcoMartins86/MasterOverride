@@ -539,6 +539,41 @@ And alon	g with it, your hopes of finding a warm meal and some answers. You deci
 				<column name="vAccidents">0</column>
 				<column name="vLoot">0</column>
 			</table>
+			<!-- MoDZero, DoGZero -->
+			<table name="encounters">
+				<column name="id">244</column>
+				<column name="strName">Exam Room 17</column>
+				<column name="strDesc">The exam room isn't much to look at. But it's secure, and sheltered from the elements.
+	
+It looks	 like the lights might work, if you could figure out the short in the wiring.
+	
+Also, th	e HVAC seems to be pumping air. Probably still powered by whatever runs the tubes in the other room. Someone handy with machinery might be able to rig it to heat incoming air a bit.
+	
+There is	 even a small metal locker, most likely for the staff's personal belongings.
+	
+With a l	ittle work, this room would make a decent place to hole up in.</column>
+				<column name="strImg">EncCryo2Dark.png</column>
+				<column name="nTreasureID">3</column>
+				<column name="nRemoveTreasureID">3</column>
+				<column name="aConditions">1</column>
+				<column name="aPreConditions">213</column>
+				<column name="fPrice">0</column>
+				<column name="aResponses">90.13x1=DoG:4x1x0x0x0,90.58x1=246x1x0x0x0,90.59x1=245x1x0x0x0,90.59x1=247x1x0x0x0,MoD:90.11x1=MoD:100x1x0x0x0,90.58x1=248x1x0x0x0,=244x1x0x0x0</column>
+				<column name="aMinimapHexes"></column>
+				<column name="bRemoveCreatures">0</column>
+				<column name="bRemoveUsed">0</column>
+				<column name="nItemsID">158</column>
+				<column name="nCreatureID">0</column>
+				<column name="ptCreatureHex">0,0</column>
+				<column name="ptTeleport">0,0</column>
+				<column name="ptEditor">10379,-4638</column>
+				<column name="nType">0</column>
+				<column name="fLootChance">0</column>
+				<column name="fAccidentChance">0</column>
+				<column name="fCreatureChance">0</column>
+				<column name="vAccidents">1</column>
+				<column name="vLoot">3</column>
+			</table>
 			<!-- NSEoverride, MoDZero -->
 			<table name="encounters">
 				<column name="id">848</column>
@@ -5713,11 +5748,11 @@ On the opposite side lies a small open field close to several huts, which serves
 				<column name="bSuppress">0</column>
 				<column name="bIdentify">0</column>
 			</table>
-			<!-- NSEoverride, MoDZero -->
+			<!-- NSEoverride, MoDZero, DoGZero -->
 			<table name="treasuretable">
 				<column name="id">163</column>
 				<column name="strName">HVAC (unheated), elec panel and power outlet</column>
-				<column name="aTreasures">26.2x1x1,26.3x1x1,NSE:25.1x1x1</column>
+				<column name="aTreasures">26.2x1x1,26.3x1x1,NSE:25.1x1x1,DoG:26.1x1x1</column>
 				<column name="bNested">0</column>
 				<column name="bSuppress">0</column>
 				<column name="bIdentify">0</column>
