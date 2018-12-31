@@ -1,6 +1,10 @@
 # Changelog
 I will try to keep all relevant changes listed in this file.
 
+## [v0.10] - 2018-12-31
+### Changed
+- Updated getmods.php file to reflect the latest changes in-game (including training mod fix)
+
 ## [v0.9] - 2018-11-22
 ### Added
 - Depths of Gyges v1.01 compatibility
