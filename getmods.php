@@ -1,4 +1,4 @@
-nRows=48
+nRows=50
 &strModName0=NSE&strModURL0=Mods/NeoScavExtended/NSExtended
 &strModName1=0&strModURL1=Mods/NeoScavExtended/NSEoverride
 &strModName2=Over&strModURL2=Mods/Overhaul/AddOn
@@ -36,14 +36,16 @@ nRows=48
 &strModName34=0&strModURL34=Mods/BlackguardMods/BlueRot
 &strModName35=TRN&strModURL35=Mods/TrainingMod/TrainingMod
 &strModName36=0&strModURL36=Mods/TrainingMod/0
-&strModName37=BBC&strModURL37=Mods/DevKit/BBCAddOn
-&strModName38=DevKit&strModURL38=Mods/DevKit/DevKitAddOn
-&strModName39=0&strModURL39=Mods/DevKit/VanillaOverride
-&strModName40=MONC&strModURL40=Mods/MasterOverride/NewContent
-&strModName41=0&strModURL41=Mods/MasterOverride/VanillaOverride
-&strModName42=NSE&strModURL42=Mods/MasterOverride/NSEPatch
-&strModName43=MoD&strModURL43=Mods/MasterOverride/MoDPatch
-&strModName44=Over&strModURL44=Mods/MasterOverride/OverPatch
-&strModName45=FishingMod&strModURL45=Mods/MasterOverride/FishingPatch
-&strModName46=Horses&strModURL46=Mods/MasterOverride/HorsesPatch
-&strModName47=BBwithNSE&strModURL47=Mods/MasterOverride/BBwithNSEPatch
+&strModName37=DoG&strModURL37=Mods/Depths of Gyges/Depths of Gyges
+&strModName38=0&strModURL38=Mods/Depths of Gyges/DoGZero
+&strModName39=BBC&strModURL39=Mods/DevKit/BBCAddOn
+&strModName40=DevKit&strModURL40=Mods/DevKit/DevKitAddOn
+&strModName41=0&strModURL41=Mods/DevKit/VanillaOverride
+&strModName42=MONC&strModURL42=Mods/MasterOverride/NewContent
+&strModName43=0&strModURL43=Mods/MasterOverride/VanillaOverride
+&strModName44=NSE&strModURL44=Mods/MasterOverride/NSEPatch
+&strModName45=MoD&strModURL45=Mods/MasterOverride/MoDPatch
+&strModName46=Over&strModURL46=Mods/MasterOverride/OverPatch
+&strModName47=FishingMod&strModURL47=Mods/MasterOverride/FishingPatch
+&strModName48=Horses&strModURL48=Mods/MasterOverride/HorsesPatch
+&strModName49=TRN&strModURL49=Mods/MasterOverride/TrainingPatch
