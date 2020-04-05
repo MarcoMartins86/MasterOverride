@@ -1,6 +1,11 @@
 # Changelog
 I will try to keep all relevant changes listed in this file.
 
+## [v0.11] - 2020-04-05
+### Changed
+- Updated getmods.php file to have a new folder structure where all used mods are inside this folder mod
+- Re-enabled a merge fix for BBwithNSEPatch that was previously disabled by mistake   
+
 ## [v0.10] - 2018-12-31
 ### Changed
 - Updated getmods.php file to reflect the latest changes in-game (including training mod fix)
