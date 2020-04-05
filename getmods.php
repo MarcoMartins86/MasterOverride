@@ -1,4 +1,4 @@
-nRows=51
+nRows=50
 &strModName0=NSE&strModURL0=Mods/MOPack/NeoScavExtended/NSExtended
 &strModName1=0&strModURL1=Mods/MOPack/NeoScavExtended/NSEoverride
 &strModName2=Over&strModURL2=Mods/MOPack/Overhaul/AddOn
@@ -34,8 +34,8 @@ nRows=51
 &strModName32=Horses&strModURL32=Mods/MOPack/Horses/Horses
 &strModName33=0&strModURL33=Mods/MOPack/Horses/0Horses
 &strModName34=0&strModURL34=Mods/MOPack/BlackguardMods/BlueRot
-&strModName35=TRN&strModURL35=Mods/MOPack/TrainingMod/TrainingMod
-&strModName36=0&strModURL36=Mods/MOPack/TrainingMod/0
+&strModName35=TRN&strModURL35=Mods/MOPack/TrainingMod/TrainingMod/MainFiles
+&strModName36=0&strModURL36=Mods/MOPack/TrainingMod/TrainingMod/VanillaOverrides
 &strModName37=DoG&strModURL37=Mods/MOPack/Depths of Gyges/Depths of Gyges
 &strModName38=0&strModURL38=Mods/MOPack/Depths of Gyges/DoGZero
 &strModName39=BBC&strModURL39=Mods/MOPack/DevKit/BBCAddOn
@@ -49,4 +49,3 @@ nRows=51
 &strModName47=FishingMod&strModURL47=Mods/MOPack/MasterOverride/FishingPatch
 &strModName48=Horses&strModURL48=Mods/MOPack/MasterOverride/HorsesPatch
 &strModName49=BBwithNSE&strModURL49=Mods/MOPack/MasterOverride/BBwithNSEPatch
-&strModName50=TRN&strModURL50=Mods/MOPack/MasterOverride/TrainingPatch

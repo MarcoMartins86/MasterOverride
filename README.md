@@ -90,10 +90,10 @@ Also to use this mod you need to install all of the following mods:
 		* AddOn/
 		* VanillaOverride/
 
-- [Training Skill Extended v0.8](https://bluebottlegames.com/node/6126) and extract to:
+- [Training Skill Plus v1.1](https://bluebottlegames.com/node/6126) and extract to:
 	+ [NeoSavengerGameFolder]/Mods/MOPack/TrainingMod/
-		* 0/
-		* TrainingMod/
+		* TrainingMod/MainFiles/
+		* TrainingMod/VanillaOverrides/
 		
 - [Depths of Gyges v1.01](https://bluebottlegames.com/node/4925) and extract to:
 	+ [NeoSavengerGameFolder]/Mods/MOPack/Depths of Gyges/

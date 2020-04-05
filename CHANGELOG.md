@@ -1,6 +1,10 @@
 # Changelog
 I will try to keep all relevant changes listed in this file.
 
+## [v0.12] - 2020-04-05
+### Changed
+- Updated getmods.php to reflect the update of Training mod to v1.1 and removed unneeded override
+
 ## [v0.11] - 2020-04-05
 ### Changed
 - Updated getmods.php file to have a new folder structure where all used mods are inside this folder mod
