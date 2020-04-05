@@ -1,4 +1,4 @@
-# MasterOverride v0.11
+# MasterOverride v0.12
 [NeoScavenger MasterOverride mod](https://bluebottlegames.com/content/wipmergensemodoverfishingmodshouldermodbottlemodbackpackmodhorsesdevkitbluerot) tested with Steam game version 1.15 1/6/2017 and made by me (Marco Martins).
 This is still in really early state of creation.
 Mod should be placed into:
